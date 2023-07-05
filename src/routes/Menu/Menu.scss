@@ -106,7 +106,7 @@
     h2 {
         font-family: 'ClubbedToLife';
         font-size: 42px;
-        line-height: 100px;
+        line-height: 120%;
         letter-spacing: 5px;
         text-align: center;
     }
@@ -183,7 +183,7 @@
                 border-top-left-radius: 12px;
                 border-bottom-left-radius: 12px;
                 height: 100%;
-                object-fit: contain;
+                object-fit: cover;
                 display: block;
                 position: relative;
                 z-index: 25;
@@ -196,6 +196,51 @@
                 padding: 16px;
                 flex: 1 auto;
             }
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        .menu-wrapper {
+
+            h2 {
+                margin: 0;
+                font-size: 24px;
+            }
+
+            .scroll-wrapper {
+                padding: 0;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            span {
+                font-size: 16px;
+                margin: 6px 0;
+            }
+
+            p {
+                font-size: 14px;
+            }
+            
+            .menu-item {
+                margin: 16px 0;
+                min-width: 210px;
+                max-height: 300px;
+                .topbar {
+                    flex-direction: column-reverse;
+                    align-items: flex-start;
+                }
+                .menu-item-info {
+                    padding: 8px;
+                }
+    
+                .menu-item-image {
+                    width: 100px;
+                }
+            }
+
         }
     }
 }

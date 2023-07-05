@@ -16,12 +16,18 @@
     padding: 32px 0;
     z-index: 10000;
     box-sizing: border-box;
+    @media screen and (max-width: 450px) {
+        width: 60px;
+    }
 }
 
 .logo {
     width: 10vh;
     -webkit-animation: pulse 1.5s ease-in-out infinite both;
     animation: pulse 1.5s ease-in-out infinite both;
+    @media screen and (max-width: 450px) {
+        width: 45px;
+    }
 
     img {
         width: 100%;
@@ -35,6 +41,10 @@
     align-items: center;
     margin: 24px auto;
     transition: 0.19s ease-in-out all;
+
+    @media screen and (max-width: 450px) {
+        margin: 5.9vh;
+    }
 
     &:hover {
         transform: scale(1.05);
@@ -52,6 +62,10 @@
         font-weight: 800;
         font-size: 22px;
         letter-spacing: 2px;
+
+        @media screen and (max-width: 450px) {
+            font-size: 10px;
+        }
     }
 
     span, img {
@@ -60,6 +74,9 @@
 
     img {
         width: 7vh;
+        @media screen and (max-width: 450px) {
+            width: 45px;
+        }
     }
 }
 
