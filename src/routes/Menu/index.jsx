@@ -146,7 +146,7 @@ const Menu = () => {
                                         <h3>Randy Candy</h3>
                                         <span>5,000 gil</span>
                                     </div>
-                                    <p>Blue Velvet Cake • Blue Vanilla Frosting • Sprinkles • Ice Crystal Garnish</p>
+                                    <p>Heart Shaped Candies with a Chewy, Motivation-Filled Center</p>
                                 </div>
 
                             </div>
