@@ -76,7 +76,7 @@ const Menu = () => {
                                         <h3>Gyr Abania Sunrise</h3>
                                         <span>8,000 gil</span>
                                     </div>
-                                    <p>Nine Ivies Vodka • Maraschino Liqueur • Shaved Ice • Mint Sprigs • Orange Bitters</p>
+                                    <p>Fresh Squeezed Orange Juice • Sparkling Wine • Cieldalaen Silver Tequila • Maraschino Cherry • Lime</p>
                                 </div>
                             </div>
                             <div className="menu-item">
