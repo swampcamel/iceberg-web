@@ -35,6 +35,8 @@ function App() {
             autoplay={{
               delay: 15000
             }}
+            loop={true}
+            loopedSlides={3}
             speed={800}
             effect="fade"
             className="slider1"
