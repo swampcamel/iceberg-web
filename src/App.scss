@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
+
+@font-face {
+    font-family: "ClubbedToLife";
+    src: local("ClubbedToLife-aemJ"),
+     url("./assets/fonts/ClubbedToLife-aemJ.ttf") format("truetype");
+    font-weight: normal;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.route {
+  position: relative;
+  z-index: 1000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 150px);
+  margin-left: 150px;
+}
+
+.slider1 {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 100vh;
+  width: 100%;
+  max-width: 100%;
+
+  .swiper-wrapper {
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0), translateZ(0);
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+
+      &#slide1 {
+      -webkit-animation: kenburns-bottom 15.8s ease-out infinite alternate-reverse both;
+      animation: kenburns-bottom 15.8s ease-out infinite alternate-reverse both;
+      }
+
+      &#slide2 {
+        -webkit-animation: kenburns-bottom-left 15.8s ease-out infinite alternate-reverse both;
+        animation: kenburns-bottom-left 15.8s ease-out infinite alternate-reverse both;
+      }
+
+      &#slide3 {
+        -webkit-animation: kenburns-bottom-right 15.8s ease-out infinite alternate-reverse both;
+        animation: kenburns-bottom-right 15.8s ease-out infinite alternate-reverse both;
+      }
+
+      &#slide4 {
+        -webkit-animation: kenburns-left 15.8s ease-out infinite alternate-reverse both;
+        animation: kenburns-left 15.8s ease-out infinite alternate-reverse both;
+      }
+
+      &#slide5 {
+        -webkit-animation: kenburns-right 15.8s ease-out infinite alternate-reverse both;
+        animation: kenburns-right 15.8s ease-out infinite alternate-reverse both;
+      }
+
+      
+    }
+  }
+}
+
+
+
+@keyframes kenburns-right {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+            transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 84% 50%;
+            transform-origin: 84% 50%;
+  }
+  100% {
+    -webkit-transform: scale(1.15) translateX(20px);
+            transform: scale(1.15) translateX(20px);
+    -webkit-transform-origin: right;
+            transform-origin: right;
+  }
+}
+
+
+@keyframes kenburns-left {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+            transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 16% 50%;
+            transform-origin: 16% 50%;
+  }
+  100% {
+    -webkit-transform: scale(1.15) translate(-20px, 15px);
+            transform: scale(1.15) translate(-20px, 15px);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+}
+
+@keyframes kenburns-bottom {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+            transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 84%;
+            transform-origin: 50% 84%;
+  }
+  100% {
+    -webkit-transform: scale(1.15) translateY(15px);
+            transform: scale(1.15) translateY(15px);
+    -webkit-transform-origin: bottom;
+            transform-origin: bottom;
+  }
+}
+
+@keyframes kenburns-bottom-right {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+            transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 84% 84%;
+            transform-origin: 84% 84%;
+  }
+  100% {
+    -webkit-transform: scale(1.15) translate(20px, 15px);
+            transform: scale(1.15) translate(20px, 15px);
+    -webkit-transform-origin: right bottom;
+            transform-origin: right bottom;
+  }
+}
+
+@keyframes kenburns-bottom-left {
+  0% {
+    -webkit-transform: scale(1) translate(0, 0);
+            transform: scale(1) translate(0, 0);
+    -webkit-transform-origin: 16% 84%;
+            transform-origin: 16% 84%;
+  }
+  100% {
+    -webkit-transform: scale(1.15) translate(-20px, 15px);
+            transform: scale(1.15) translate(-20px, 15px);
+    -webkit-transform-origin: left bottom;
+            transform-origin: left bottom;
+  }
+}
