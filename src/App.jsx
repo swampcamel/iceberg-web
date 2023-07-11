@@ -50,7 +50,7 @@ function App() {
           </Swiper>
           <AnimatePresence mode="wait" initial={false}>
                 <Routes location={location} key={location.pathname}>
-                    <Route path="/" element={<Home />} />
+                    <Route exact path="/" element={<Home />} />
                     <Route path="/events" element={<Events />} />
                     <Route path="/menu" element={<Menu />} />
                     <Route path="/casino" element={<ComingSoon />} />
