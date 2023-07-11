@@ -1,7 +1,8 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, EffectFade  } from 'swiper'
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "framer-motion"
+import { TwitchPlayer } from 'react-twitch-embed'
 
 import Home from './routes/Home'
 import Events from './routes/Events'
@@ -30,6 +31,13 @@ function App() {
     <>
       <div className='app'>
           <Navbar />
+          <TwitchPlayer
+            className="twitch-player" 
+            video="1868855399"
+            autoplay="false"
+            width="320"
+            height="150"
+          />
           <Swiper
             modules={[Autoplay, EffectFade]}
             slidesPerView={1}
