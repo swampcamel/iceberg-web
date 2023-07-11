@@ -1,6 +1,6 @@
-import { motion } from "framer-motion"
+import { motion } from 'framer-motion'
 
-import Latest from '../../assets/img/07-10-23-iceberg.gif'
+import Latest from '../../assets/img/07-17-2023.mp4'
 import './Events.scss'
 
 const Events = () => {
@@ -17,7 +17,7 @@ const Events = () => {
                 }}
                 exit={{ rotateX: 70, opacity: 0 }}
             >
-                <img src={Latest} alt="07-10-23 Event Poster"/>
+                <video src={Latest} muted autoPlay loop/>
             </motion.div>
         </>
     )

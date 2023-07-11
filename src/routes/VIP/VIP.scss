@@ -1,0 +1,262 @@
+.vip-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.option-wrapper {
+    width: 320px;
+    margin: 24px;
+    background-color: darken(#0c2659, 8%);
+    position: relative;
+    border-radius: 50px;
+    padding: 24px 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    h3, h4, ul {
+        font-family: "ClubbedToLife";
+        letter-spacing: 4px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+    
+    h4 {
+        font-size: 20px;
+    }
+    
+    h3, h4 {
+        padding: 0;
+        margin: 0 0 0 0;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        -webkit-box-shadow: 0 0 17px 3px #FF1493,0 0 4px 2px #FF1493;
+                box-shadow: 0 0 17px 3px #FF1493,0 0 4px 2px #FF1493;
+        z-index: -1;
+        -webkit-animation-name: half-pink-shadow;
+                animation-name: half-pink-shadow;
+        -webkit-animation-timing-function: ease;
+                animation-timing-function: ease;
+        -webkit-animation-duration: 5s;
+                animation-duration: 5s;
+        -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+        border-radius: 50px;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 50%;
+        height: 100%;
+        -webkit-box-shadow: 0 0 17px 3px #0ff,0 0 4px 2px #0ff;
+                box-shadow: 0 0 17px 3px #0ff,0 0 4px 2px #0ff;
+        z-index: -1;
+        -webkit-animation-name: half-cyan-shadow;
+                animation-name: half-cyan-shadow;
+        -webkit-animation-timing-function: ease;
+                animation-timing-function: ease;
+        -webkit-animation-duration: 5s;
+                animation-duration: 5s;
+        -webkit-animation-iteration-count: infinite;
+                animation-iteration-count: infinite;
+        border-radius: 50px;
+    }
+}
+
+@-webkit-keyframes half-pink-shadow {
+    0% {
+      top: 0;
+      left: 0;
+      height: 50%;
+      width: 50%;
+    }
+    16.66% {
+      top: 0;
+      left: 0;
+      height: 50%;
+      width: 100%;
+    }
+    32.32% {
+      top: 0;
+      left: 50%;
+      height: 50%;
+      width: 50%;
+    }
+    49.98% {
+      top: 50%;
+      left: 50%;
+      height: 50%;
+      width: 50%;
+    }
+    66.64% {
+      top: 50%;
+      left: 0;
+      height: 50%;
+      width: 100%;
+    }
+    83.3% {
+      top: 50%;
+      left: 0;
+      height: 50%;
+      width: 50%;
+    }
+    100% {
+      top: 0;
+      left: 0;
+      height: 50%;
+      width: 50%;
+    }
+  }
+  
+  @keyframes half-pink-shadow {
+    0% {
+      top: 0;
+      left: 0;
+      height: 50%;
+      width: 50%;
+    }
+    16.66% {
+      top: 0;
+      left: 0;
+      height: 50%;
+      width: 100%;
+    }
+    32.32% {
+      top: 0;
+      left: 50%;
+      height: 50%;
+      width: 50%;
+    }
+    49.98% {
+      top: 50%;
+      left: 50%;
+      height: 50%;
+      width: 50%;
+    }
+    66.64% {
+      top: 50%;
+      left: 0;
+      height: 50%;
+      width: 100%;
+    }
+    83.3% {
+      top: 50%;
+      left: 0;
+      height: 50%;
+      width: 50%;
+    }
+    100% {
+      top: 0;
+      left: 0;
+      height: 50%;
+      width: 50%;
+    }
+  }
+  
+  @-webkit-keyframes half-cyan-shadow {
+    0% {
+      bottom: 0;
+      right: 0;
+      height: 50%;
+      width: 50%;
+    }
+    16.66% {
+      bottom: 0;
+      right: 0;
+      height: 50%;
+      width: 100%;
+    }
+    32.32% {
+      bottom: 0;
+      right: 50%;
+      height: 50%;
+      width: 50%;
+    }
+    49.98% {
+      bottom: 50%;
+      right: 50%;
+      height: 50%;
+      width: 50%;
+    }
+    66.64% {
+      bottom: 50%;
+      right: 0;
+      height: 50%;
+      width: 100%;
+    }
+    83.3% {
+      bottom: 50%;
+      right: 0;
+      height: 50%;
+      width: 50%;
+    }
+    100% {
+      bottom: 0;
+      right: 0;
+      height: 50%;
+      width: 50%;
+    }
+  }
+  
+  @keyframes half-cyan-shadow {
+    0% {
+      bottom: 0;
+      right: 0;
+      height: 50%;
+      width: 50%;
+    }
+    16.66% {
+      bottom: 0;
+      right: 0;
+      height: 50%;
+      width: 100%;
+    }
+    32.32% {
+      bottom: 0;
+      right: 50%;
+      height: 50%;
+      width: 50%;
+    }
+    49.98% {
+      bottom: 50%;
+      right: 50%;
+      height: 50%;
+      width: 50%;
+    }
+    66.64% {
+      bottom: 50%;
+      right: 0;
+      height: 50%;
+      width: 100%;
+    }
+    83.3% {
+      bottom: 50%;
+      right: 0;
+      height: 50%;
+      width: 50%;
+    }
+    100% {
+      bottom: 0;
+      right: 0;
+      height: 50%;
+      width: 50%;
+    }
+  }

@@ -6,6 +6,7 @@ import { AnimatePresence } from "framer-motion";
 import Home from './routes/Home'
 import Events from './routes/Events'
 import Menu from './routes/Menu'
+import VIP from './routes/VIP'
 import ComingSoon from './components/ComingSoon'
 
 import Navbar from './components/Navbar'
@@ -51,10 +52,10 @@ function App() {
           <AnimatePresence mode="wait" initial={false}>
                 <Routes location={location} key={location.pathname}>
                     <Route exact path="/" element={<Home />} />
-                    <Route path="/events" element={<ComingSoon />} />
+                    <Route path="/events" element={<Events />} />
                     <Route path="/menu" element={<Menu />} />
                     <Route path="/casino" element={<ComingSoon />} />
-                    <Route path="/vip" element={<ComingSoon />} />
+                    <Route path="/vip" element={<VIP />} />
                     <Route path="/staff" element={<ComingSoon />} />
 
                 </Routes>
