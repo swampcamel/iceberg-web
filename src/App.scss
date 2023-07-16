@@ -16,16 +16,17 @@
 .route {
     position: relative;
     z-index: 1000;
-    min-height: 100vh;
+    min-height: calc(100vh - 48px);
     display: flex;
     justify-content: center;
     align-items: center;
     width: calc(100% - 150px);
     margin-left: 150px;
+    margin-top: 24px;
+    margin-bottom: 24px;
     box-sizing: border-box;
 
     @media screen and (max-width: 450px) {
-        height: 100vh;
         width: calc(100% - 60px);
         margin-left: 60px;
     }
@@ -38,7 +39,7 @@
     z-index: 5000;
 
     @media screen and (max-width: 500px) {
-        height: 65px;
+        display: none;
     }
 }
 

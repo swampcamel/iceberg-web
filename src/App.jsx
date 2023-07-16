@@ -8,6 +8,7 @@ import Home from './routes/Home'
 import Events from './routes/Events'
 import Menu from './routes/Menu'
 import VIP from './routes/VIP'
+import Casino from './routes/Casino'
 import ComingSoon from './components/ComingSoon'
 
 import Navbar from './components/Navbar'
@@ -62,7 +63,7 @@ function App() {
                     <Route exact path="/" element={<Home />} />
                     <Route path="/events" element={<Events />} />
                     <Route path="/menu" element={<Menu />} />
-                    <Route path="/casino" element={<ComingSoon />} />
+                    <Route path="/casino" element={<Casino />} />
                     <Route path="/vip" element={<VIP />} />
                     <Route path="/staff" element={<ComingSoon />} />
 
