@@ -9,7 +9,7 @@ import Events from './routes/Events'
 import Menu from './routes/Menu'
 import VIP from './routes/VIP'
 import Casino from './routes/Casino'
-import ComingSoon from './components/ComingSoon'
+import Staff from './routes/Staff'
 
 import Navbar from './components/Navbar'
 
@@ -65,7 +65,7 @@ function App() {
                     <Route path="/menu" element={<Menu />} />
                     <Route path="/casino" element={<Casino />} />
                     <Route path="/vip" element={<VIP />} />
-                    <Route path="/staff" element={<ComingSoon />} />
+                    <Route path="/staff" element={<Staff />} />
 
                 </Routes>
           </AnimatePresence>
