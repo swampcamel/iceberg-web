@@ -40,7 +40,7 @@ const Navbar = () => {
                         <img src={Staff} alt="Staff" />
                         <span>Staff</span>
                     </Link>
-                    <Link to="https://discord.gg/4fBcvxv2Pj" className="menu-tile">
+                    <Link to="https://discord.gg/4fBcvxv2Pj" target="_blank" rel="noopener noreferrer"className="menu-tile">
                         <img src={Discord} alt="Discord" />
                         <span>Discord</span>
                     </Link>
