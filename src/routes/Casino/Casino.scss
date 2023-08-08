@@ -36,11 +36,25 @@
 
     img {
         height: 600px;
+        position:relative;
+        z-index: 2;
         border-top-left-radius: 50px;
         border-bottom-left-radius: 50px;
         @media screen and (max-width: 1180px) {
             display: none;
         }
+    }
+
+    .video-bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: calc(100% - 400px);
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50px;
+        z-index: 0;
+        opacity: 0.2
     }
 
     .casino-content {

@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 
 import GambaPic from '../../assets/img/naughty-gamba.jpg'
+import PokerBG from '../../assets/img/poker-bg.mp4'
 
 import './Casino.scss'
 
@@ -19,6 +20,7 @@ const Casino = () => {
         >
             <div className="wrapper">
                 <img src={GambaPic} alt="a sexy blackjack dealing miqo'te girl" />
+                    <video className="video-bg" src={PokerBG} autoPlay muted loop controls='' />
                 <div className="casino-content">
                     <h1>Naughty Blackjack</h1>
                     <h2>House Rules</h2>
