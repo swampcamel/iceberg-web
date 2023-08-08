@@ -11,6 +11,12 @@ import KehdaNormal from '../../assets/img/staff/keyda-normal.jpg'
 import KehdaAnime from '../../assets/img/staff/keyda-anime.jpg'
 import DelbeeNormal from '../../assets/img/staff/delbee-normal.jpg'
 import DelbeeAnime from '../../assets/img/staff/delbee-anime.jpg'
+import SylviaNormal from '../../assets/img/staff/sylvia-normal.jpg'
+import SylviaAnime from '../../assets/img/staff/sylvia-anime.jpg'
+import IsbeilNormal from '../../assets/img/staff/isbeil-normal.jpg'
+import IsbeilAnime from '../../assets/img/staff/isbeil-anime.jpg'
+import KureiNormal from '../../assets/img/staff/kurei-normal.jpg'
+import KureiAnime from '../../assets/img/staff/kurei-anime.jpg'
 
 import './Staff.scss'
 
@@ -67,12 +73,42 @@ const Staff = () => {
             </div>
             <div className="member-wrapper">
                 <div className="img-wrapper">
+                    <img className="normal-img" src={SylviaNormal} />
+                    <img className="anime-img" src={SylviaAnime} />
+                </div>
+                <div class="member-content">
+                    <h3>Sylvia Vale</h3>
+                    <h4>Courtesan Manager</h4>
+                </div>
+            </div>
+            <div className="member-wrapper">
+                <div className="img-wrapper">
                     <img className="normal-img" src={KehdaNormal} />
                     <img className="anime-img" src={KehdaAnime} />
                 </div>
                 <div class="member-content">
                     <h3>Kehda Tyeres</h3>
                     <h4>Bar Manager</h4>
+                </div>
+            </div>
+            <div className="member-wrapper">
+                <div className="img-wrapper">
+                    <img className="normal-img" src={IsbeilNormal} />
+                    <img className="anime-img" src={IsbeilAnime} />
+                </div>
+                <div class="member-content">
+                    <h3>Isbeil Keten</h3>
+                    <h4>Game Master</h4>
+                </div>
+            </div>
+            <div className="member-wrapper">
+                <div className="img-wrapper">
+                    <img className="normal-img" src={KureiNormal} />
+                    <img className="anime-img" src={KureiAnime} />
+                </div>
+                <div class="member-content">
+                    <h3>Kurei Takumi</h3>
+                    <h4>Courtesan</h4>
                 </div>
             </div>
             <div className="member-wrapper">
