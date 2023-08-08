@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
 
+import GambaPic from '../../assets/img/naughty-gamba.jpg'
+
 import './Casino.scss'
 
 const Casino = () => {
@@ -16,6 +18,7 @@ const Casino = () => {
             exit={{ rotateX: 70, opacity: 0 }}
         >
             <div className="wrapper">
+                <img src={GambaPic} alt="a sexy blackjack dealing miqo'te girl" />
                 <div className="casino-content">
                     <h1>Naughty Blackjack</h1>
                     <h2>House Rules</h2>
