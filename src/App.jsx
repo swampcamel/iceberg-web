@@ -34,8 +34,8 @@ function App() {
           <Navbar />
           <TwitchPlayer
             className="twitch-player" 
-            video="1886965472"
-            // channel="demonktn"
+            // video="1886965472"
+            channel="demonktn"
             autoplay="false"
             width="320"
             height="150"
