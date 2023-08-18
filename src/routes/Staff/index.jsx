@@ -17,6 +17,10 @@ import IsbeilNormal from '../../assets/img/staff/isbeil-normal.jpg'
 import IsbeilAnime from '../../assets/img/staff/isbeil-anime.jpg'
 import KureiNormal from '../../assets/img/staff/kurei-normal.jpg'
 import KureiAnime from '../../assets/img/staff/kurei-anime.jpg'
+import VictorNormal from '../../assets/img/staff/victor-normal.jpg'
+import VictorAnime from '../../assets/img/staff/victor-anime.jpg'
+import BlakeNormal from '../../assets/img/staff/blake-normal.jpg'
+import BlakeAnime from '../../assets/img/staff/blake-anime.jpg'
 
 import './Staff.scss'
 
@@ -93,6 +97,16 @@ const Staff = () => {
             </div>
             <div className="member-wrapper">
                 <div className="img-wrapper">
+                    <img className="normal-img" src={BlakeNormal} />
+                    <img className="anime-img" src={BlakeAnime} />
+                </div>
+                <div class="member-content">
+                    <h3>Blake Sfangs</h3>
+                    <h4>Photographer</h4>
+                </div>
+            </div>
+            <div className="member-wrapper">
+                <div className="img-wrapper">
                     <img className="normal-img" src={IsbeilNormal} />
                     <img className="anime-img" src={IsbeilAnime} />
                 </div>
@@ -129,6 +143,16 @@ const Staff = () => {
                 <div class="member-content">
                     <h3>Delbee Es</h3>
                     <h4>Dancer</h4>
+                </div>
+            </div>
+            <div className="member-wrapper">
+                <div className="img-wrapper">
+                    <img className="normal-img" src={VictorNormal} />
+                    <img className="anime-img" src={VictorAnime} />
+                </div>
+                <div class="member-content">
+                    <h3>Victor Umbriel</h3>
+                    <h4>Security</h4>
                 </div>
             </div>
         </div>
