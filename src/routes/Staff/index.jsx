@@ -223,7 +223,7 @@ const Staff = () => {
                     <h4>Dancer</h4>
                 </div>
             </div>
-                        <div className="member-wrapper">
+            {/* <div className="member-wrapper">
                 <div className="img-wrapper">
                     <img className="normal-img" src={StarNormal} />
                     <img className="anime-img" src={StarAnime} />
@@ -232,7 +232,7 @@ const Staff = () => {
                     <h3>Echo River</h3>
                     <h4>Dancer</h4>
                 </div>
-            </div>
+            </div> */}
             <div className="member-wrapper">
                 <div className="img-wrapper">
                     <img className="normal-img" src={CornNormal} />
