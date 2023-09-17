@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion'
 
 import Riven from '../../assets/img/staff/riven-anime.jpg'
-import Destiny from '../../assets/img/staff/destiny-anime.jpg'
+import DestinyAnime from '../../assets/img/staff/destiny-anime.jpg'
+import DestinyNormal from '../../assets/img/staff/destiny-normal.jpg'
 import Kether from '../../assets/img/staff/kether-anime.jpg'
 import NyxlinNormal from '../../assets/img/staff/nyxlin-normal.jpg'
 import NyxlinAnime from '../../assets/img/staff/nyxlin-anime.jpg'
@@ -11,8 +12,6 @@ import KehdaNormal from '../../assets/img/staff/keyda-normal.jpg'
 import KehdaAnime from '../../assets/img/staff/keyda-anime.jpg'
 import DelbeeNormal from '../../assets/img/staff/delbee-normal.jpg'
 import DelbeeAnime from '../../assets/img/staff/delbee-anime.jpg'
-import SylviaNormal from '../../assets/img/staff/sylvia-normal.jpg'
-import SylviaAnime from '../../assets/img/staff/sylvia-anime.jpg'
 import IsbeilNormal from '../../assets/img/staff/isbeil-normal.jpg'
 import IsbeilAnime from '../../assets/img/staff/isbeil-anime.jpg'
 import KureiNormal from '../../assets/img/staff/kurei-normal.jpg'
@@ -21,6 +20,24 @@ import VictorNormal from '../../assets/img/staff/victor-normal.jpg'
 import VictorAnime from '../../assets/img/staff/victor-anime.jpg'
 import BlakeNormal from '../../assets/img/staff/blake-normal.jpg'
 import BlakeAnime from '../../assets/img/staff/blake-anime.jpg'
+import HikuiNormal from '../../assets/img/staff/hikui-normal.jpg'
+import HikuiAnime from '../../assets/img/staff/hikui-anime.jpg'
+import ElsaNormal from '../../assets/img/staff/elsademon-normal.jpg'
+import ElsaAnime from '../../assets/img/staff/elsademon-anime.jpg'
+import CornNormal from '../../assets/img/staff/corn-normal.jpg'
+import CornAnime from '../../assets/img/staff/corn-anime.jpg'
+import HokuNormal from '../../assets/img/staff/hoku-normal.jpg'
+import HokuAnime from '../../assets/img/staff/hoku-anime.jpg'
+import SnowNormal from '../../assets/img/staff/snow-normal.jpg'
+import SnowAnime from '../../assets/img/staff/snow-anime.jpg'
+import CrowleyNormal from '../../assets/img/staff/nightingale-normal.jpg'
+import CrowleyAnime from '../../assets/img/staff/nightingale-anime.jpg'
+import AdoraNormal from '../../assets/img/staff/adora-normal.jpg'
+import AdoraAnime from '../../assets/img/staff/adora-anime.jpg'
+import StarNormal from '../../assets/img/staff/star-normal.jpg'
+import StarAnime from '../../assets/img/staff/star-anime.jpg'
+import UmbraNormal from '../../assets/img/staff/umbra-normal.jpg'
+import UmbraAnime from '../../assets/img/staff/umbra-anime.jpg'
 
 import './Staff.scss'
 
@@ -49,7 +66,8 @@ const Staff = () => {
             </div>
             <div className="member-wrapper">
                 <div className="img-wrapper">
-                    <img src={Destiny} />
+                    <img className="normal-img" src={DestinyNormal} />
+                    <img className="anime-img" src={DestinyAnime} />
                 </div>
                 <div class="member-content">
                     <h3>Destiny Zatoshi</h3>
@@ -77,22 +95,22 @@ const Staff = () => {
             </div>
             <div className="member-wrapper">
                 <div className="img-wrapper">
-                    <img className="normal-img" src={SylviaNormal} />
-                    <img className="anime-img" src={SylviaAnime} />
-                </div>
-                <div class="member-content">
-                    <h3>Sylvia Vale</h3>
-                    <h4>Courtesan Manager</h4>
-                </div>
-            </div>
-            <div className="member-wrapper">
-                <div className="img-wrapper">
                     <img className="normal-img" src={KehdaNormal} />
                     <img className="anime-img" src={KehdaAnime} />
                 </div>
                 <div class="member-content">
                     <h3>Kehda Tyeres</h3>
                     <h4>Bar Manager</h4>
+                </div>
+            </div>
+            <div className="member-wrapper">
+                <div className="img-wrapper">
+                    <img className="normal-img" src={HikuiNormal} />
+                    <img className="anime-img" src={HikuiAnime} />
+                </div>
+                <div class="member-content">
+                    <h3>Hikui Sensha</h3>
+                    <h4>Photographer</h4>
                 </div>
             </div>
             <div className="member-wrapper">
@@ -117,11 +135,51 @@ const Staff = () => {
             </div>
             <div className="member-wrapper">
                 <div className="img-wrapper">
+                    <img className="normal-img" src={UmbraNormal} />
+                    <img className="anime-img" src={UmbraAnime} />
+                </div>
+                <div class="member-content">
+                    <h3>Umbra</h3>
+                    <h4>🖤Patron Saint🖤</h4>
+                </div>
+            </div>
+            <div className="member-wrapper">
+                <div className="img-wrapper">
+                    <img className="normal-img" src={AdoraNormal} />
+                    <img className="anime-img" src={AdoraAnime} />
+                </div>
+                <div class="member-content">
+                    <h3>Adora Trevelyan</h3>
+                    <h4>Courtesan</h4>
+                </div>
+            </div>
+            <div className="member-wrapper">
+                <div className="img-wrapper">
+                    <img className="normal-img" src={ElsaNormal} />
+                    <img className="anime-img" src={ElsaAnime} />
+                </div>
+                <div class="member-content">
+                    <h3>Elsa Icywind</h3>
+                    <h4>Courtesan</h4>
+                </div>
+            </div>
+            <div className="member-wrapper">
+                <div className="img-wrapper">
                     <img className="normal-img" src={KureiNormal} />
                     <img className="anime-img" src={KureiAnime} />
                 </div>
                 <div class="member-content">
                     <h3>Kurei Takumi</h3>
+                    <h4>Courtesan</h4>
+                </div>
+            </div>
+            <div className="member-wrapper">
+                <div className="img-wrapper">
+                    <img className="normal-img" src={CrowleyNormal} />
+                    <img className="anime-img" src={CrowleyAnime} />
+                </div>
+                <div class="member-content">
+                    <h3>Alistor Crowley</h3>
                     <h4>Courtesan</h4>
                 </div>
             </div>
@@ -143,6 +201,46 @@ const Staff = () => {
                 <div class="member-content">
                     <h3>Delbee Es</h3>
                     <h4>Dancer</h4>
+                </div>
+            </div>
+            <div className="member-wrapper">
+                <div className="img-wrapper">
+                    <img className="normal-img" src={HokuNormal} />
+                    <img className="anime-img" src={HokuAnime} />
+                </div>
+                <div class="member-content">
+                    <h3>Queen Hoku</h3>
+                    <h4>Dancer</h4>
+                </div>
+            </div>
+            <div className="member-wrapper">
+                <div className="img-wrapper">
+                    <img className="normal-img" src={SnowNormal} />
+                    <img className="anime-img" src={SnowAnime} />
+                </div>
+                <div class="member-content">
+                    <h3>Snow Angel</h3>
+                    <h4>Dancer</h4>
+                </div>
+            </div>
+                        <div className="member-wrapper">
+                <div className="img-wrapper">
+                    <img className="normal-img" src={StarNormal} />
+                    <img className="anime-img" src={StarAnime} />
+                </div>
+                <div class="member-content">
+                    <h3>Echo River</h3>
+                    <h4>Dancer</h4>
+                </div>
+            </div>
+            <div className="member-wrapper">
+                <div className="img-wrapper">
+                    <img className="normal-img" src={CornNormal} />
+                    <img className="anime-img" src={CornAnime} />
+                </div>
+                <div class="member-content">
+                    <h3>Cornelius Crown</h3>
+                    <h4>Enforcer</h4>
                 </div>
             </div>
             <div className="member-wrapper">
