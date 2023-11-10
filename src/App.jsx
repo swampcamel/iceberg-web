@@ -21,8 +21,31 @@ import Slide5 from './assets/img/iceberg-bar.jpg'
 
 import 'swiper/css'
 import 'swiper/css/autoplay'
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
+import timezone from 'dayjs/plugin/timezone';
+
 import 'swiper/css/effect-fade';
 import './App.scss'
+
+dayjs.extend(utc);
+dayjs.extend(timezone);
+
+const checkTime = () => {
+    // Get the current time in EST timezone
+    const nowEST = dayjs().tz('America/New_York');
+    const currentDay = nowEST.day();
+    const currentHour = nowEST.hour();
+
+
+ if  (currentHour >= 22 && currentHour < 24 && currentDay === 1 ) {
+    return { channel: "yourbobatea" }
+ } else if ( currentHour < 2 && currentDay === 1) {
+    return { channel: "vox_ncv"}
+ } else {
+    return { video: "1970848993" }
+ }
+}
 
 function App() {
 
@@ -34,11 +57,10 @@ function App() {
           <Navbar />
           <TwitchPlayer
             className="twitch-player" 
-            // video="1886965472"
-            channel="demonktn"
             autoplay="false"
             width="320"
             height="150"
+            {...checkTime()}
           />
           <Swiper
             modules={[Autoplay, EffectFade]}
