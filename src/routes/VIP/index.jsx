@@ -45,7 +45,6 @@ const VIP = () => {
                                 <li>250k Gamba Credit for the Month</li>
                                 <li>Discord Role</li>
                                 <li>Increase Gamba Limit to 1 Mil</li>
-                                <li>1 Hour NSFW Time with a Court of your Choice<br/>(with Court's Consent)</li>
                             </ul>
                         </div>
                     </div>
@@ -60,7 +59,6 @@ const VIP = () => {
                                 <li>500k Gamba Credit for the Month</li>
                                 <li>Discord Role</li>
                                 <li>Increase Gamba Limit to 1 Mil</li>
-                                <li>2 Hour NSFW Time with a Court of your Choice<br/>(with Court's Consent)</li>
                             </ul>
                         </div>
                     </div>

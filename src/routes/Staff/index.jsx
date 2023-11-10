@@ -3,8 +3,6 @@ import { motion } from 'framer-motion'
 import Riven from '../../assets/img/staff/riven-anime.jpg'
 import DestinyNormal from '../../assets/img/staff/destiny.jpg'
 import Kether from '../../assets/img/staff/kether-anime.jpg'
-import NyxlinNormal from '../../assets/img/staff/nyxlin-normal.jpg'
-import NyxlinAnime from '../../assets/img/staff/nyxlin-anime.jpg'
 import DulcNormal from '../../assets/img/staff/dulcenia-normal.jpg'
 import DulcAnime from '../../assets/img/staff/dulcenia-anime.jpg'
 import KehdaNormal from '../../assets/img/staff/keyda-normal.jpg'
@@ -13,8 +11,6 @@ import DelbeeNormal from '../../assets/img/staff/delbee-normal.jpg'
 import DelbeeAnime from '../../assets/img/staff/delbee-anime.jpg'
 import IsbeilNormal from '../../assets/img/staff/isbeil-normal.jpg'
 import IsbeilAnime from '../../assets/img/staff/isbeil-anime.jpg'
-import KureiNormal from '../../assets/img/staff/kurei-normal.jpg'
-import KureiAnime from '../../assets/img/staff/kurei-anime.jpg'
 import VictorNormal from '../../assets/img/staff/victor-normal.jpg'
 import VictorAnime from '../../assets/img/staff/victor-anime.jpg'
 import BlakeNormal from '../../assets/img/staff/blake-normal.jpg'
@@ -27,8 +23,6 @@ import HokuNormal from '../../assets/img/staff/hoku-normal.jpg'
 import HokuAnime from '../../assets/img/staff/hoku-anime.jpg'
 import SnowNormal from '../../assets/img/staff/snow-normal.jpg'
 import SnowAnime from '../../assets/img/staff/snow-anime.jpg'
-import CrowleyNormal from '../../assets/img/staff/nightingale-normal.jpg'
-import CrowleyAnime from '../../assets/img/staff/nightingale-anime.jpg'
 import UmbraNormal from '../../assets/img/staff/umbra-normal.jpg'
 import UmbraAnime from '../../assets/img/staff/umbra-anime.jpg'
 
@@ -165,16 +159,6 @@ const Staff = () => {
                     <h4>Dancer</h4>
                 </div>
             </div>
-            {/* <div className="member-wrapper">
-                <div className="img-wrapper">
-                    <img className="normal-img" src={StarNormal} />
-                    <img className="anime-img" src={StarAnime} />
-                </div>
-                <div class="member-content">
-                    <h3>Echo River</h3>
-                    <h4>Dancer</h4>
-                </div>
-            </div> */}
             <div className="member-wrapper">
                 <div className="img-wrapper">
                     <img className="normal-img" src={CornNormal} />
