@@ -37,13 +37,12 @@ const checkTime = () => {
     const currentDay = nowEST.day();
     const currentHour = nowEST.hour();
 
-
  if  (currentHour >= 22 && currentHour < 24 && currentDay === 1 ) {
     return { channel: "axisamp_" }
- } else if ( currentHour < 2 && currentDay === 1) {
+ } else if ( currentHour < 2 && currentDay === 2) {
     return { channel: "vox_ncv"}
  } else {
-    return { video: "1970848993" }
+    return { video: "2025228430" }
  }
 }
 
