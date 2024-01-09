@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 
-import Latest from '../../assets/img/6Nov23.mp4'
+import Latest from '../../assets/img/8jan24.mp4'
 import './Events.scss'
 
 const Events = () => {

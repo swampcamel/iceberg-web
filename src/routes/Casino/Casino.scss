@@ -67,12 +67,10 @@
         overflow-y: scroll;
         position: relative;
         z-index: 2;
-        margin-right: 12px;
         width: 100%;
         &::-webkit-scrollbar {
             background-color: transparent;
-            width: 4px;
-            
+            width: 4px; 
         }
 
         &::-webkit-scrollbar-track {

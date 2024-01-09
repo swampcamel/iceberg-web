@@ -39,7 +39,7 @@ const checkTime = () => {
 
 
  if  (currentHour >= 22 && currentHour < 24 && currentDay === 1 ) {
-    return { channel: "yourbobatea" }
+    return { channel: "axisamp_" }
  } else if ( currentHour < 2 && currentDay === 1) {
     return { channel: "vox_ncv"}
  } else {
